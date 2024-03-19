@@ -1,0 +1,95 @@
+/* Styling for the body */
+body{
+	background-color: chocolate;
+	font-family: Arial,sans-serif;
+	margin: 0 ;
+	padding: 0;
+}
+/* Styling for the header */
+header{
+	background-color: darkgreen;
+	padding: 20px;
+}
+/* Styling for the navigation */
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+/* Styling for the navigation unordered list */
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+/* Styling for navigation list items */
+nav li{
+	display: inline-block;
+	margin-right: 20px;
+}
+/* Styling for navigation links */
+nav a{
+	text-decoration: none;
+	color: black;
+}
+/* Styling for navigation links on hover */
+nav a:hover{
+	color: #333;
+}
+/* Styling for dropdown menu */
+.dropdown{
+	position: right;
+	display: inline-block;
+	direction: rtl;
+}
+/* Styling for dropdown contents */
+.dropdown-contents{
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+/* Styling for dropdown links */
+.dropdown-contents a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-contents a:hover{
+	background-color: #ddd;
+}
+.dropdown:hover .dropdown-contents{
+	display: block;
+
+}
+/* Styling for sections */
+section{
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+}
+/* Styling for footer */
+footer{
+	text-align: center;
+	padding: 20px;
+	background-color: darkgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
